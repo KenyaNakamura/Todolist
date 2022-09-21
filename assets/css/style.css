@@ -47,6 +47,7 @@ input[type="text"] {
 .todo-list {
 	width: 100%;
 	border-radius: 3px;
+	
 }
 /* 追加されるリストアイテムのCSS */
 li {
@@ -68,4 +69,19 @@ li:last-child {
 	font-size: 12px;
 	color: rgb(202, 20, 20);
 	cursor: pointer;
+	
+}
+
+
+/* チェックボックス */
+.check{
+	margin-left: 10px;
+}
+
+.container2{
+	width: 100%;
+}
+
+h2{
+	text-align: center;
 }

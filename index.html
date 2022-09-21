@@ -1,22 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
     <div class="container">
-            <h1>To Do List</h1>
-            <form>
-                <input type="text" id="input" placeholder="Add your task here">
-                <input type="button" id="btn" value="Add">
-            </form>
-            <ul class="todo-list">
-                <!-- ここに要素が追加されていく -->
+        <h1>タスクリスト</h1>
+        <form>
+            <input type="text" id="input" placeholder="">
+            <input type="button" id="btn" value="Add">
+        </form>
+        <ul class="todo-list">
+            <!-- <li class="list">
+                <div>
+                    <input type="checkbox" name="" id="">
+                    task
+
+                </div>
+
+                <div class="delete">delete</div>
+            </li> -->
+            <!-- ここに要素が追加されていく -->
+        </ul>
+        <div class="container2">
+            <h2>完了タスク</h2>
+            <ul id="end-list">
+                <!-- チェックボタンが押された要素の移動 -->
+                <!-- <li class="list">
+                    <div class="parent">
+                        <input type="checkbox" name="" id="">
+                        <span>task</span>
+
+                    </div>
+
+                    <div class="delete">delete</div>
+                </li> -->
             </ul>
+
+        </div>
     </div>
     <script src="./assets/js/main.js"></script>
 </body>
+
 </html>
